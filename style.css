@@ -1,0 +1,35 @@
+#cart {
+    max-width: 900px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: bold;
+    align-items: center;
+
+
+}
+
+.total-p {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.delete-btn {
+    border: 2px solid black;
+    text-align: center;
+    padding: 9px;
+    background-color: black;
+    color: aliceblue;
+    font-family: inherit;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.ok {
+    margin-bottom: 20px;
+}
